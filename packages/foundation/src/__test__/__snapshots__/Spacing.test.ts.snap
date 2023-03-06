@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshop of Spacings: Foundation 1`] = `
+{
+  "lg": "lg",
+  "md": "md",
+  "sm": "sm",
+  "xl": "xl",
+  "xs": "xs",
+  "xxl": "xxl",
+  "xxs": "xxs",
+  "xxxl": "xxxl",
+  "xxxs": "xxxs",
+}
+`;

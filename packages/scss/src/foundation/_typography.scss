@@ -1,0 +1,62 @@
+/*=============================================
+=          Foundation - Typography            =
+=============================================*/
+
+/**
+ * This file defines the default font sieze to be used on the headings and texts.
+ * The defaults come from the palette in _variables.scss.
+ *
+ */
+
+/*=============================================
+=                Font Family                  =
+=============================================*/
+$header-font-family: var(--wo-body-font-family, $playfair) !default;
+$body-font-family: var(--wo-body-font-family, $playfair) !default;
+
+/*=============================================
+ =               Body Text Size                =
+ =============================================*/
+$body-font-size: var(--wo-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--wo-body-font-weight, $fw-normal) !default;
+
+/*=====      End of Body Text Size      ======*/
+
+/*=============================================
+ =            Heading Text Sizes               =
+ =============================================*/
+$h-1-font-size: var(--wo-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--wo-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--wo-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--wo-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--wo-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--wo-h6-font-size, $h-6) !default;
+
+/*=====    End of Heading Text Sizes   ======*/
+
+/*=============================================
+ =            Heading Font Weight              =
+ =============================================*/
+$h-1-font-weight: var(--wo-h1-font-weight, $fw-black) !default;
+$h-2-font-weight: var(--wo-h2-font-weight, $fw-semibold) !default;
+$h-3-font-weight: var(--wo-h3-font-weight, $fw-bold) !default;
+$h-4-font-weight: var(--wo-h4-font-weight, $fw-medium) !default;
+$h-5-font-weight: var(--wo-h5-font-weight, $fw-normal) !default;
+$h-6-font-weight: var(--wo-h6-font-weight, $fw-light) !default;
+/*=====  End of Heading Font Weight    ======*/
+
+/*=============================================
+ =            Global Utilites Font            =
+ =============================================*/
+$wo-fonts-size: (
+  xxxs: var(--wo-fs-xxxs, $fs-xxxs),
+  xxs: var(--wo-fs-xxs, $fs-xxs),
+  xs: var(--wo-fs-xs, $fs-xs),
+  sm: var(--wo-fs-sm, $fs-sm),
+  base: var(--wo-fs-base, $fs-base),
+  lg: var(--wo-fs-lg, $fs-lg),
+  xl: var(--wo-fs-xl, $fs-xl),
+  xxl: var(--wo-fs-xxl, $fs-xxl),
+  xxxl: var(--wo-fs-xxxl, $fs-xxxl),
+) !default;
+/*=====  End of Global Utilites Font  ======*/

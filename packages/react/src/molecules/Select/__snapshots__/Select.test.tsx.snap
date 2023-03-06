@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnapShop: Selector Base:/Molecules/Select 1`] = `
+<DocumentFragment>
+  <div
+    class="wo-select"
+  >
+    <button
+      aria-haspopup="true"
+      class="wo-select__label"
+      data-testid="WinOoSelectorButton"
+    >
+      <span
+        class="wo-text-base"
+      >
+        Base Framgment
+      </span>
+      <svg
+        class="wo-widht-xs wo-height-xs wo-select__caret wo-select__caret--close"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SnapShop: Selector Mock Data:/Molecules/Select 1`] = `
+<DocumentFragment>
+  <div
+    class="wo-select"
+  >
+    <button
+      aria-haspopup="true"
+      class="wo-select__label"
+      data-testid="WinOoSelectorButton"
+    >
+      <span
+        class="wo-text-base"
+      >
+        Mg Mg
+      </span>
+      <svg
+        class="wo-widht-xs wo-height-xs wo-select__caret wo-select__caret--close"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SnapShop: Selector Open State:/Molecules/Select 1`] = `
+<DocumentFragment>
+  <div
+    class="wo-select"
+  >
+    <button
+      aria-expanded="true"
+      aria-haspopup="true"
+      class="wo-select__label"
+      data-testid="WinOoSelectorButton"
+    >
+      <span
+        class="wo-text-base"
+      >
+        Open State Framgment
+      </span>
+      <svg
+        class="wo-widht-xs wo-height-xs wo-select__caret wo-select__caret--open"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <ul
+      class="wo-select__overlay"
+      role="menu"
+      style="top: 0px;"
+    >
+      <li
+        class="wo-select__option 
+                
+                wo-select__option--highlighted
+              "
+        role="menuitemradio"
+        tabindex="-1"
+      >
+        <span
+          class="wo-text-base"
+        >
+          Mg Mg
+        </span>
+      </li>
+      <li
+        class="wo-select__option 
+                
+                
+              "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <span
+          class="wo-text-base"
+        >
+          Ag Ag
+        </span>
+      </li>
+      <li
+        class="wo-select__option 
+                
+                
+              "
+        role="menuitemradio"
+        tabindex="0"
+      >
+        <span
+          class="wo-text-base"
+        >
+          Lwin
+        </span>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,95 @@
+// For Only Client to Overrides our properties
+
+:root {
+  // Text Color
+  --wo-body-text-color: #{$dark};
+  --wo-body-bg-color: #{$white};
+
+  // Button Color
+  --wo-btn-primary-color: #{$white};
+  --wo-btn-primary-bg: #{$indigo};
+  --wo-btn-primary-bg-hover: #{$indigo-light};
+
+  // Button Secondary Color
+  --wo-btn-secondary-color: #{$white};
+  --wo-btn-secondary-bg: #{$dark};
+  --wo-btn-secondary-bg-hover: #{$dark-light};
+
+  // Form Variables
+  --wo-form-color: #{$dark};
+  --wo-form-bg: #{$white};
+  --wo-form-error-color: #{$red};
+  --wo-form-error-border: #{$red};
+  --wo-form-border-focus-color: #{$indigo};
+  --wo-form-bg-color: #{$white};
+  --wo-form-border-color: #{$white-dark};
+  --wo-form-selected-bg-color: #{$green-light};
+
+  // Font Variables
+  --wo-body-font-size: #{$fs-base};
+  --wo-body-font-weight: #{$fw-normal};
+
+  // Font Family
+  --wo-header-font-family: #{$playfair};
+  --wo-body-font-family: #{$playfair};
+
+  // Header Font Sizes
+  --wo-h1-font-size: #{$h-1};
+  --wo-h2-font-size: #{$h-2};
+  --wo-h3-font-size: #{$h-3};
+  --wo-h4-font-size: #{$h-4};
+  --wo-h5-font-size: #{$h-5};
+  --wo-h6-font-size: #{$h-6};
+
+  // Utilities Font Sizes
+  --wo-fs-xxxs: #{$fs-xxxs};
+  --wo-fs-xxs: #{$fs-xxs};
+  --wo-fs-xs: #{$fs-xs};
+  --wo-fs-sm: #{$fs-sm};
+  --wo-fs-base: #{$fs-base};
+  --wo-fs-lg: #{$fs-lg};
+  --wo-fs-xl: #{$fs-xl};
+  --wo-fs-xxl: #{$fs-xxl};
+  --wo-fs-xxxl: #{$fs-xxxl};
+
+  // Header Font Weight
+  --wo-h1-font-weight: #{$fw-medium};
+  --wo-h2-font-weight: #{$fw-medium};
+  --wo-h3-font-weight: #{$fw-medium};
+  --wo-h4-font-weight: #{$fw-normal};
+  --wo-h5-font-weight: #{$fw-normal};
+  --wo-h6-font-weight: #{$fw-light};
+
+  // Spacings
+  --wo-spacing-xxxs: #{$spacing-xxxs};
+  --wo-spacing-xxs: #{$spacing-xxs};
+  --wo-spacing-xs: #{$spacing-xs};
+  --wo-spacing-sm: #{$spacing-sm};
+  --wo-spacing-md: #{$spacing-md};
+  --wo-spacing-lg: #{$spacing-lg};
+  --wo-spacing-xl: #{$spacing-xl};
+  --wo-spacing-xxl: #{$spacing-xxl};
+  --wo-spacing-xxxl: #{$spacing-xxxl};
+
+  // Margins
+  --wo-margin-xxxs: #{$spacing-xxxs};
+  --wo-margin-xxs: #{$spacing-xxs};
+  --wo-margin-xs: #{$spacing-xs};
+  --wo-margin-sm: #{$spacing-sm};
+  --wo-margin-md: #{$spacing-md};
+  --wo-margin-lg: #{$spacing-lg};
+  --wo-margin-xl: #{$spacing-xl};
+  --wo-margin-xxl: #{$spacing-xxl};
+  --wo-margin-xxxl: #{$spacing-xxxl};
+
+  // Paddings
+  --wo-padding-xxxs: #{$spacing-xxxs};
+  --wo-padding-xxs: #{$spacing-xxs};
+  --wo-padding-xs: #{$spacing-xs};
+  --wo-padding-sm: #{$spacing-sm};
+  --wo-padding-md: #{$spacing-md};
+  --wo-padding-lg: #{$spacing-lg};
+  --wo-padding-xl: #{$spacing-xl};
+  --wo-padding-xxl: #{$spacing-xxl};
+  --wo-padding-xxxl: #{$spacing-xxxl};
+}

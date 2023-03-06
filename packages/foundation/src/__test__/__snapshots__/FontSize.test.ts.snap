@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshop of fontsizes: Foundation 1`] = `
+{
+  "base": "base",
+  "lg": "lg",
+  "sm": "sm",
+  "xl": "xl",
+  "xs": "xs",
+  "xxl": "xxl",
+  "xxs": "xxs",
+  "xxxl": "xxxl",
+  "xxxs": "xxxs",
+}
+`;

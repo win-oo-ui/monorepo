@@ -1,0 +1,45 @@
+// Spacings
+
+/*=============================================
+ =            Global Spacings                 =
+ =============================================*/
+$wo-spacings: (
+  xxxs: var(--wo-spacing-xxxs, #{$spacing-xxxs}),
+  xxs: var(--wo-spacing-xxs, #{$spacing-xxs}),
+  xs: var(--wo-spacing-xs, #{$spacing-xs}),
+  sm: var(--wo-spacing-sm, #{$spacing-sm}),
+  md: var(--wo-spacing-md, #{$spacing-md}),
+  lg: var(--wo-spacing-lg, #{$spacing-lg}),
+  xl: var(--wo-spacing-xl, #{$spacing-xl}),
+  xxl: var(--wo-spacing-xxl, #{$spacing-xxl}),
+  xxxl: var(--wo-spacing-xxxl, #{$spacing-xxxl}),
+) !default;
+/*=====  End of Global Spacings        ======*/
+
+$sides: top, left, bottom, right;
+
+/*=============================================
+ = Global Utilites Margin& Padding            =
+ =============================================*/
+@each $key, $value in $wo-margins {
+  .wo-margin-#{$key} {
+    margin: $value;
+  }
+  @each $side in $sides {
+    .wo-margin-#{$side}-#{$key} {
+      margin-#{$side}: $value;
+    }
+  }
+}
+
+@each $key, $value in $wo-paddings {
+  .wo-padding-#{$key} {
+    padding: $value;
+  }
+  @each $side in $sides {
+    .wo-padding-#{$side}-#{$key} {
+      padding-#{$side}: $value;
+    }
+  }
+}
+/*=====  End of Global Utilites Margin& Padding  ======*/

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshop of KeyboardKeyss: Foundation 1`] = `
+{
+  "DOWN_ARROW": "ArrowDown",
+  "ENTER": "Enter",
+  "ESC": "Escape",
+  "SPACE": " ",
+  "UP_ARROW": "ArrowUp",
+}
+`;

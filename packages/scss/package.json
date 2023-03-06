@@ -1,0 +1,39 @@
+{
+  "name": "@winoo/scss",
+  "version": "0.0.0",
+  "description": "Win Oo Scss Foundation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec yarn build -e scss",
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js"
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
+  "keywords": [
+    "WinOo",
+    "WinOoStyle",
+    "WinOoScss"
+  ],
+  "author": "Lwin Moe Paing <lwinmoepaing.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

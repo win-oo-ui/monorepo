@@ -1,0 +1,60 @@
+@import "foundation/all";
+
+.wo-select {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+}
+
+.wo-select__label {
+  @include padding("xxs");
+  background-color: $form-bg-color;
+  border: 1px solid $form-border-color;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-family: $body-font-family;
+  justify-content: space-between;
+  position: relative;
+}
+
+.wo-select__caret {
+  transition: all 0.25s ease-in-out;
+}
+
+.wo-select__caret--open {
+  transform: rotate(180deg);
+}
+
+.wo-select__caret--close {
+  transform: rotate(0deg);
+}
+
+.wo-select__overlay {
+  padding: 0;
+  margin: 0;
+  background-color: $form-bg-color;
+  border: 1px solid $form-border-color;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  list-style-type: none;
+}
+
+.wo-select__option {
+  @include padding("xs");
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.wo-select__option--selected {
+  background-color: $form-selected-bg-color;
+}
+
+.wo-select__option:hover {
+  background-color: $form-border-color;
+}

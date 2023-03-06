@@ -1,0 +1,47 @@
+/*=============================================
+=           Foundation - Colors               =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They'll be used to the palette
+ * we defined in the _variables.scss file. This is our default palette, and devs can override this colors
+ * with their own custom variables.
+ *
+ */
+
+/*=============================================
+=            Global Text Colors               =
+=============================================*/
+$body-text-color: var(--wo-body-text-color, $dark) !default;
+$body-bg-color: var(--wo-body-bg-color, $white) !default;
+
+/*=====  End of Global Text Colors     ======*/
+
+/*=============================================
+=                Buttons                      =
+=============================================*/
+$btn-primary-color: var(--wo-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--wo-btn-primary-bg, $indigo) !default;
+$btn-primary-bg-hover: var(--wo-btn-primary-bg-hover, $indigo-light) !default;
+
+/*=====          End of Buttons        ======*/
+
+/*=============================================
+=                  Forms                      =
+=============================================*/
+$form-border-color: var(--wo-form-border-color, $white-dark);
+$form-bg-color: var(--wo-form-bg-color, $white) !default;
+$form-color: var(--wo-form-color, $dark) !default;
+$form-bg: var(--wo-form-bg, $white) !default;
+$form-error-color: var(--wo-form-error-color, $red) !default;
+$form-error-border: var(--wo-form-error-border, $red) !default;
+$form-border-focus-color: var(--wo-form-border-focus-color, $indigo) !default;
+$form-selected-bg-color: var(--wo-form-selected-bg-color, $green-light) !default;
+/*=====            End of Forms        ======*/
+
+/*=============================================
+=                  App Bar                    =
+=============================================*/
+$app-bar-bg: var(--wo-app-bar, $white) !default;
+$app-bar-dark-bg: var(--wo-app-bar-dark-bg, $dark) !default;
+
+/*=====          End of App Bar        ======*/

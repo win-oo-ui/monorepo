@@ -1,0 +1,9 @@
+@import "foundation/all";
+
+.wo-button__container {
+  background-color: $btn-primary-bg;
+  border: 0;
+  color: $btn-primary-color;
+  display: flex;
+  padding: map-get($wo-spacings, "xxx");
+}

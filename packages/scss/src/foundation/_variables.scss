@@ -1,0 +1,273 @@
+/*=============================================
+=                   Variables                 =
+=============================================*/
+/**
+ *
+ * TABLE OF CONTENTS
+ *
+ *
+ * COLORS
+ * Brand colors.................These are the main brand colors. They will be used the most
+ * Neutral colors...............White and black, gray scale, secondary color.
+ * Utility colors...............Other colors to represent states: info, warning, success, etc
+ * 
+ * 
+ * TYPOGRAPHY
+ * Font families................The fonts used in the design system.
+ * Font weights.................Font weights
+ * Sizes........................Font sizing for body text, paragraph, inputs
+ * Heading sizes................Font sizing for page headings.
+ * 
+ * 
+ * BREAKPOINTS
+ * Breakpoints..................Global responsive breakpoints definitions.
+ * 
+ * 
+ * SPACING
+ * Spacing......................Global fixed set of spacing variables.
+ * 
+ * 
+ */
+
+/*=============================================
+=                Colors                       =
+=============================================*/
+/* Brand Colors */
+$indigo: #dfdfdf;
+$indigo-light: #fafafa;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+/* Neutral Colors */
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+/* Utility Colors */
+$red: #d12727;
+$red-light: #f8dedf;
+
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+$green-light: #bcfaca;
+/*=====          End of Colors         ======*/
+
+/*=============================================
+=                Typography                   =
+=============================================*/
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly,
+ *    https://fonts.google.com/speciemen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *    https://fonts.google.com/spicemen/Raleway
+ */
+
+/* Font Families */
+$playfair: "Playfair", serif; /* Primary */
+$raleway: "Raleway", "HelveticaNeue", "Arial", sans-serif; /* Secondary */
+
+/* Font Sizes */
+$fs-xxxs: 0.5rem; // 8px
+$fs-xxs: 0.625rem; // 10px
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
+$fs-xxl: 1.75rem; // 28px
+$fs-xxxl: 2rem; // 32px
+
+/* Heading Font Sizes */
+$h-1: 1.375rem; // 22px
+$h-2: 1.375rem; // 22px
+$h-3: 1; // 16px
+$h-4: 1.125rem; // 18px
+$h-5: 0.75rem; // 12px
+$h-6: 0.75rem; // 12px
+
+/* Font Weights */
+$fw-light: 200;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+/*=====        End of Typography         ======*/
+
+/*=============================================
+=                 Font Sizes                 =
+=============================================*/
+
+/* Font Sizes */
+$fs: (
+  xxxs: #{$fs-xxxs},
+  xxs: #{$fs-xxs},
+  xs: #{$fs-xs},
+  sm: #{$fs-sm},
+  base: #{$fs-base},
+  lg: #{$fs-lg},
+  xl: #{$fs-xl},
+  xxl: #{$fs-xxl},
+  xxxl: #{$fs-xxxl},
+) !default;
+
+/*=====        End of Font Sizes          ======*/
+
+/*=============================================
+=                Breakpoints                  =
+=============================================*/
+
+/* Break Points */
+$breakpoints: (
+  sm: 23.4375rem,
+  // 375px
+  md: 48rem,
+  // 768px
+  lg: 64rem,
+  // 1024px
+  xl: 80rem,
+  // 1280px
+) !default;
+
+/*=====        End of Breakpoints        ======*/
+
+/*=============================================
+=                  Spacing                    =
+=============================================*/
+
+$spacing-xxxs: 0.25rem;
+// 4px
+$spacing-xxs: 0.5rem;
+// 8px
+$spacing-xs: 0.75rem;
+// 12px
+$spacing-sm: 1rem;
+// 16px
+$spacing-md: 1.5rem;
+// 24px
+$spacing-lg: 2rem;
+// 32px
+$spacing-xl: 3rem;
+// 48px
+$spacing-xxl: 4.5rem;
+// 72px
+$spacing-xxxl: 6rem;
+// 96px
+
+/* Spacings */
+$spacings: (
+  none: 0,
+  xxxs: $spacing-xxxs,
+  xxs: $spacing-xxs,
+  xs: $spacing-xs,
+  sm: $spacing-sm,
+  md: $spacing-md,
+  lg: $spacing-lg,
+  xl: $spacing-xl,
+  xxl: $spacing-xxl,
+  xxxl: $spacing-xxxl,
+) !default;
+
+/*=============================================
+=                  Margin                    =
+=============================================*/
+
+$margin-xxxs: 0.25rem;
+// 4px
+$margin-xxs: 0.5rem;
+// 8px
+$margin-xs: 0.75rem;
+// 12px
+$margin-sm: 1rem;
+// 16px
+$margin-md: 1.5rem;
+// 24px
+$margin-lg: 2rem;
+// 32px
+$margin-xl: 3rem;
+// 48px
+$margin-xxl: 4.5rem;
+// 72px
+$margin-xxxl: 6rem;
+// 96px
+
+/* margins */
+$wo-margins: (
+  none: 0,
+  xxxs: $margin-xxxs,
+  xxs: $margin-xxs,
+  xs: $margin-xs,
+  sm: $margin-sm,
+  md: $margin-md,
+  lg: $margin-lg,
+  xl: $margin-xl,
+  xxl: $margin-xxl,
+  xxxl: $margin-xxxl,
+) !default;
+
+/*=====        End of Margin           ======*/
+
+/*=============================================
+=                  Padding                    =
+=============================================*/
+
+$padding-xxxs: 0.25rem;
+// 4px
+$padding-xxs: 0.5rem;
+// 8px
+$padding-xs: 0.75rem;
+// 12px
+$padding-sm: 1rem;
+// 16px
+$padding-md: 1.5rem;
+// 24px
+$padding-lg: 2rem;
+// 32px
+$padding-xl: 3rem;
+// 48px
+$padding-xxl: 4.5rem;
+// 72px
+$padding-xxxl: 6rem;
+// 96px
+
+/* paddings */
+$wo-paddings: (
+  none: 0,
+  xxxs: $padding-xxxs,
+  xxs: $padding-xxs,
+  xs: $padding-xs,
+  sm: $padding-sm,
+  md: $padding-md,
+  lg: $padding-lg,
+  xl: $padding-xl,
+  xxl: $padding-xxl,
+  xxxl: $padding-xxxl,
+) !default;
+
+/*=====        End of Padding           ======*/
+
+/*=============================================
+=                  Shadows                    =
+=============================================*/
+$shadow-color: rgba(157, 157, 157, 0.21);
+
+$shadows: (
+  xxxs: 0 4px 11px $shadow-color,
+  xxs: 0 4px 11px $shadow-color,
+  xs: 0 4px 11px $shadow-color,
+  sm: 0 4px 11px $shadow-color,
+  base: 0 4px 11px $shadow-color,
+  lg: 0 4px 11px $shadow-color,
+  xl: 0 4px 11px $shadow-color,
+  xxl: 0 4px 11px $shadow-color,
+  xxxl: 0 4px 11px $shadow-color,
+) !default;
+
+/*=====        End of Font Sizes          ======*/
