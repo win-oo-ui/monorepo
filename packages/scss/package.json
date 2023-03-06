@@ -1,6 +1,6 @@
 {
   "name": "@winoo/scss",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Win Oo Scss Foundation",
   "main": "index.js",
   "scripts": {
